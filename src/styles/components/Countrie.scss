@@ -1,0 +1,49 @@
+.cardsWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+    border: 2px solid black;
+    background-color: rgb(243, 243, 242);
+    border-radius: 12px;
+}
+.radioButton{
+    border-radius: 12px;
+padding: 2rem;
+width: 50%;
+margin: 2rem auto;
+background-color: rgb(141, 176, 230);
+
+
+}
+
+.radioButton input{
+    margin: 1rem;
+}
+
+.CountrieCard{
+ 
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+max-width:  300px;
+    margin: 0 auto;
+    background-color: black;
+    color: wheat;
+}
+.CountrieCard img{
+    height: 200px;
+    width: 300px;
+    border-bottom: 3px solid wheat;
+    border-top: 3px solid wheat;
+}
+.CountrieCard h2{
+margin: 1rem;
+
+}
+.CountrieCard a{
+color: wheat;
+
+}
